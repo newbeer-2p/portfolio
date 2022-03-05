@@ -1,0 +1,25 @@
+[
+    {
+        "name": "IT KMITL Open House 2020",
+        "imgs": [
+            "/activities/act_openhouse_2020_1.jpg.png",
+            "/activities/act_openhouse_2020_2.jpg.png"
+        ]
+    },
+    {
+        "name": "ToBeIT 63",
+        "imgs": [
+            "/activities/act_tobeit63_1.jpg",
+            "/activities/act_tobeit63_2.jpg",
+            "/activities/act_tobeit63_3.jpg",
+            "/activities/act_tobeit63_4.jpg"
+        ]
+    },
+    {
+        "name": "KMITL Open House 2019",
+        "imgs": [
+            "/activities/act_openhouse_2019_1.jpg",
+            "/activities/act_openhouse_2019_2.jpg"
+        ]
+    }
+]

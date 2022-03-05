@@ -1,0 +1,74 @@
+{
+    "info" : {
+        "image" : [
+            "img/newbeer_christmas.jpg",
+            "img/newbeer_christmas_1.jpg"
+        ],
+        "firstname" : "พงศกร",
+        "lastname" : "ประวันนา",
+        "nickname" : "นิวเบียร์",
+        "birthday" : "7/6/2544",
+        "contact" : {
+            "phone" : "0926630686",
+            "email" : "newbeerpongsakorn@gmail.com",
+            "address" : {
+                "houseNo" : "741",
+                "moo" : "3",
+                "soi" : "เทศบาลบางปู 91",
+                "village": "โครงการ 4",
+                "road": "สุขุมวิท",
+                "subDistrict": "บางปูใหม่",
+                "district": "เมืองสมุทรปราการ",
+                "province": "สมุทรปราการ",
+                "postalCode": "10280",
+                "country": "ไทย"
+            }
+        }
+    },
+    "education" : {
+        "bachelorDegree" : {
+            "faculty" : "เทคโนโลยีสารสนเทศ",
+            "department" : "เทคโนโลยีสารสนเทศ",
+            "major" : "การพัฒนาสื่อประสมและเกม",
+            "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+            "yearFrom": "2562",
+            "yearTo": ""
+        },
+        "้highSchool" : {
+            "major" : "ศิลป์ - คำนวณ (ภาษาอังกฤษ - คณิตศาสตร์)",
+            "name": "โรงเรียนนวมินทราชินูทิศ สวนกุหลาบวิทยาลัย สมุทรปราการ",
+            "yearFrom": "2559",
+            "yearTo": "2561"
+        }
+    },
+    "skill" : {
+        "programmings" : [
+            {
+                "name" : "Python",
+                "level" : "7"
+            },
+            {
+                "name" : "JavaScript",
+                "level" : "6"
+            },
+            {
+                "name" : "C#",
+                "level" : "5"
+            }
+        ],
+        "programs" : [
+            {
+                "name" : "Unreal Engine",
+                "level" : "6"
+            },
+            {
+                "name" : "Unity",
+                "level" : "5"
+            },
+            {
+                "name" : "Maya",
+                "level" : "5"
+            }
+        ]
+    }
+}
