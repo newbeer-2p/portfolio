@@ -15,6 +15,13 @@ export const NavbarRight = () => {
         []
     )
 
+    const goToTop = useCallback(
+        () => {
+            document.querySelector(".contents").scroll(0, 0)
+        },
+        []
+    )
+
     useEffect(
         () => {
             const path = location.pathname
@@ -33,12 +40,14 @@ export const NavbarRight = () => {
             if (nvBarR.length === 0){
                 setCurrentContent(0)
                 return
-            } 
+            }
+            else{
+                nvBarR.forEach((nvb) => {
+                    nvb.classList.remove("selected")
+                })
+                nvBarR[currentContent].classList.add("selected")
+            }
             
-            nvBarR.forEach((nvb) => {
-                nvb.classList.remove("selected")
-            })
-            nvBarR[currentContent].classList.add("selected")
 
         },
         [location, currentContent]
@@ -53,6 +62,7 @@ export const NavbarRight = () => {
                         <div key={index} className="nvbar-r-item" onClick={changeContent(content[1], index)}>{content[0]}</div>
                     ))
                 }
+                <div className="gototop text-end" onClick={goToTop}>ไปข้างบนสุด</div>
             </div>
         </div>
     )

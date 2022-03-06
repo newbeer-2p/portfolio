@@ -1,8 +1,9 @@
 {
     "info" : {
         "image" : [
-            "img/newbeer_christmas.jpg",
-            "img/newbeer_christmas_1.jpg"
+            "img/newbeer_1.png",
+            "img/newbeer_2.png",
+            "img/newbeer_3.jpg"
         ],
         "firstname" : "พงศกร",
         "lastname" : "ประวันนา",
@@ -45,29 +46,29 @@
         "programmings" : [
             {
                 "name" : "Python",
-                "level" : "7"
+                "level" : "ดีเยี่ยม"
             },
             {
                 "name" : "JavaScript",
-                "level" : "6"
+                "level" : "ดี"
             },
             {
                 "name" : "C#",
-                "level" : "5"
+                "level" : "ดี"
             }
         ],
         "programs" : [
             {
                 "name" : "Unreal Engine",
-                "level" : "6"
+                "level" : "ดีเยี่ยม"
             },
             {
                 "name" : "Unity",
-                "level" : "5"
+                "level" : "ดี"
             },
             {
                 "name" : "Maya",
-                "level" : "5"
+                "level" : "ดี"
             }
         ]
     }

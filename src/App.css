@@ -128,7 +128,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: translate(20px, -50px) scale(2);
+  transform: translateY(20px) scale(1.25);
 }
 
 .nvbar-head .nvbar-text{
@@ -183,7 +183,7 @@ hr {
   margin-bottom: 10px;
 }
 
-.nvbar-r-item:hover{
+.nvbar-r-item:hover, .gototop:hover{
   text-decoration: underline;
   cursor: pointer;
 }
@@ -272,7 +272,7 @@ img {
 .content-skill .skill{
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: auto 20px;
+  grid-template-columns: auto auto;
 }
 
 .content-skill>div{
@@ -348,6 +348,7 @@ img {
 
 .content-act-item{
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .act-title{
@@ -357,12 +358,19 @@ img {
 
 .act-img-item{
   display: inline-block;
-  width: 50%;
+  max-width: 500px;
   height: 500px;
   padding: 20px;
+  overflow: hidden;
 }
 
 .act-img-item>img{
   width: 100%;
   height: 100%;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.act-img-item>img:hover{
+  transform: scale(1.05);
 }

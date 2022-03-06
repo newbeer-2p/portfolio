@@ -15,9 +15,9 @@ export const Skills = () => {
                                     <div>{pro.name}</div>
                                     <div>{pro.level}</div>
                                 </div>
-                                <div className="skillProgress" style={{"--widthProgress" : pro.level}}>
+                                {/* <div className="skillProgress" style={{"--widthProgress" : pro.level}}>
                                     <div></div>
-                                </div>
+                                </div> */}
                             </div>
                         ))
                     }
@@ -31,9 +31,9 @@ export const Skills = () => {
                                     <div>{pro.name}</div>
                                     <div>{pro.level}</div>
                                 </div>
-                                <div className="skillProgress" style={{"--widthProgress" : pro.level}}>
+                                {/* <div className="skillProgress" style={{"--widthProgress" : pro.level}}>
                                     <div></div>
-                                </div>
+                                </div> */}
                             </div>
                         ))
                     }

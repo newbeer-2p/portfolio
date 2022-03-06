@@ -31,7 +31,7 @@ export const NavbarLeft = () => {
             <div className="nvbar-head">
                 <Link to="/">
                     <div className="nvbar-img mb-3">
-                        <img alt="newbeer" src="/img/newbeer_christmas_1.jpg" /> 
+                        <img alt="newbeer" src="/img/newbeer_1.png" /> 
                     </div>
                 </Link>
                 <div className="nvbar-text">
