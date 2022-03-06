@@ -60,7 +60,7 @@
                 "detail" : "เนื่องจากเป็นภาษาที่คณะไม่เคยสอน จึงทำให้ตัวเองจะได้ไปศึกษาด้วยตัวเองและมันจะต้องทำงานควบคู่กับโปรแกรม Unity จึงทำให้จะต้องเรียนรู้ ด้วยการที่คณะเคยสอนภาษา C มาก่อนจึงทำให้มีพื้นฐานในการศึกษา C# เป็นไปได้ง่ายขึ้น"
             }
         ],
-        "otherProgrammings" : ["Java", "PHP", "HTML", "CSS", "NodeJS", "Express"],
+        "otherProgrammings" : ["Java", "PHP", "HTML", "CSS", "NodeJS", "React"],
         "programs" : [
             {
                 "name" : "Unreal Engine",
