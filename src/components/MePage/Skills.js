@@ -19,6 +19,10 @@ export const Skills = () => {
                             </div>
                         ))
                     }
+                    <div className="skill-other">
+                        <span className="title-sm">ภาษาอื่นๆ : </span> 
+                        <span>{data.skill.otherProgrammings.join(", ")}</span>
+                    </div>
                 </div>
                 <div className="content-skill col-12 col-xl-6">
                     <div className="title-sm">โปรแกรม</div>
@@ -32,7 +36,11 @@ export const Skills = () => {
                                 <div className="skill-detail">&emsp;&emsp;{pro.detail}</div>
                             </div>
                         ))
-                    }
+                    } 
+                    <div className="skill-other">
+                    <span className="title-sm">โปรแกรมอื่นๆ : </span> 
+                    <span>{data.skill.otherPrograms.join(", ")}</span>
+                </div>
                 </div>
             </div>
         </div>
