@@ -4,16 +4,18 @@ import { ActivityPage } from './routes/Activity';
 import { IntroPage } from './routes/Intro';
 import { MePage } from './routes/Me';
 import { RecordPage } from './routes/Record';
+import { TranscriptPage } from './routes/Transcript';
 
 function App() {
 
   return (
       <div className="app">
         <Routes>
-          <Route path="/me" element={<MePage />} ></Route>
-          <Route path="/records" element={<RecordPage />} ></Route>
-          <Route path="/activities" element={<ActivityPage />} ></Route>
-          <Route path="/" element={<IntroPage />} ></Route>
+          <Route path="/me" element={<MePage />} />
+          <Route path="/records" element={<RecordPage />} />
+          <Route path="/activities" element={<ActivityPage />} />
+          <Route path="/transcript" element={<TranscriptPage />} />
+          <Route path="/" element={<IntroPage />} />
         </Routes>
       </div>
   );

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { ButtonDownload } from "../components/ButtonDownload"
 
 export const IntroPage = () => {
     return (
@@ -15,6 +16,9 @@ export const IntroPage = () => {
                         <button className="btn btn-lg intro-btn">เข้าสู่เว็บไซต์ <i className="bi bi-chevron-double-right"></i></button>
                     </Link>
                 </div>
+            </div>
+            <div className="dl-port text-end">
+                <ButtonDownload path="/files/Pongsakorn_Portfolio.pdf" fileName="Pongsakorn_Portfolio" text="ดาวน์โหลดแฟ้มสะสมผลงาน" />
             </div>
         </div>
     )

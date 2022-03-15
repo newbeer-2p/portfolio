@@ -33,7 +33,10 @@ export const NavbarRight = () => {
                 setContents([["ด้านเกม", "game"], ["ด้านโมเดล", "model"], ["ด้านเว็บไซต์", "web"]])
             }
             else if (path.includes("/activities")){
-                setContents([])
+                setContents([["กิจกรรม", "acts"]])
+            }
+            else if (path.includes("/transcript")){
+                setContents([["ใบผลการเรียน", "trans"], ["วิชาที่ชื่นชอบ", "subjects"]])
             }
 
             const nvBarR = document.querySelectorAll(".nvbar-r-item");

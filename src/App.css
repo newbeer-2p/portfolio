@@ -363,3 +363,27 @@ img {
 .act-img-item>img:hover{
   transform: scale(1.05);
 }
+
+.bton {
+  padding: 10px;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: var(--org-1);
+  border: none;
+}
+
+.bton:hover{
+  filter: brightness(.95);
+}
+
+.sub-detail{
+  color: #555;
+  font-size: 18px;
+}
+
+.dl-port{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: block!important;
+}

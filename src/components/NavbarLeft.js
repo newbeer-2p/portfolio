@@ -22,6 +22,9 @@ export const NavbarLeft = () => {
             else if (path.includes("/activities")){
                 nvBar[2].classList.add("selected")
             }
+            else if (path.includes("/transcript")){
+                nvBar[3].classList.add("selected")
+            }
         },
         [location]
     )
@@ -49,6 +52,7 @@ export const NavbarLeft = () => {
                 <Link to="/me" ><div className="nvbar-item">ข้อมูลส่วนตัว</div></Link>
                 <Link to="/records" ><div className="nvbar-item">ผลงาน</div></Link>
                 <Link to="/activities" ><div className="nvbar-item">กิจกรรม</div></Link>
+                <Link to="/transcript" ><div className="nvbar-item">ผลการเรียน</div></Link>
             </div>
         </div>
     )

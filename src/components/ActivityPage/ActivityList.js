@@ -4,7 +4,7 @@ import { ActivityContent } from "./ActivityContent"
 
 export const ActivityList = () => {
     return (
-        <div>
+        <div className="content-acts">
             <HeadTitle text="กิจกรรม" />
             {
                 data.map((act, index) => (

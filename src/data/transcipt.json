@@ -1,0 +1,41 @@
+{
+    "gpa" : "3.29",
+    "img" : "/files/transcript.png",
+    "suggestGrade" : [
+        {
+            "name" : "PROBLEM SOLVING IN INFORMATION TECHNOLOGY",
+            "detail": "เป็นวิชาที่เรียนเกี่ยวกับภาษาโปรแกรมมิ้งในชัั้นปีที่ 1 เทอม 1 โดยเรียนเกี่ยวกับภาษา Python",
+            "grade" : "A"
+        },
+        {
+            "name" : "COMPUTER PROGRAMMING",
+            "detail": "เป็นวิชาที่เรียนเกี่ยวกับภาษาโปรแกรมมิ้งในชั้นปีที่ 1 เทอม 2 โดยเรียนเกี่ยวกับภาษา C",
+            "grade" : "B"
+        },
+        {
+            "name" : "OBJECT-ORIENTED PROGRAMMING",
+            "detail": "เป็นวิชาที่เรียนเกี่ยวกับภาษาโปรแกรมมิ้งในชั้นปีที่ 2 เทอม 1 โดยเรียนภาษา Java",
+            "grade" : "A"
+        },
+        {
+            "name" : "COMPUTER GRAPHICS AND ANIMATION",
+            "detail": "เป็นวิชาที่เรียนเกี่ยวกับงานอนิเมชั่นในชั้นปีที่ 2 เทอม 2 โดยเรียนการปั้นโมเดล การริกกิ้ง การทำอนิเมชั่น เป็นต้น",
+            "grade" : "A"
+        },
+        {
+            "name" : "MULTIMEDIA PROGRAMMING",
+            "detail": "เป็นวิชาที่เรียนเกี่ยวกับการทำเว็บไซต์ในชั้นปีที่ 3 เทอม 1 โดยเรียนภาษา HTML, CSS, JavaScript และ Responsive เป็นต้น",
+            "grade" : "A"
+        },
+        {
+            "name" : "GAME DESIGN AND DEVELOPMENT",
+            "detail": "เป็นวิชาที่เรียนเกี่ยวกับการทำเกมในชั้นปีที่ 3 เทอม 1 โดยเรียนผ่านโปรแกรม Unreal Engine",
+            "grade" : "A"
+        },
+        {
+            "name" : "3D COMPUTER ANIMATION",
+            "detail": "เป็นวิชาที่เรียนเกี่ยวกับงานอนิเมชั่นในชั้นปีที่ 3 เทอม 1 โดยเรียนการปั้นโมเดล การริกกิ้ง การทำอนิเมชั่น การกาง UV และการทำ Texture เป็นต้น",
+            "grade" : "A"
+        }
+    ]
+}
