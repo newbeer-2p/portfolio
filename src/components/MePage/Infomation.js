@@ -30,11 +30,16 @@ export const Information = () => {
             year = year-543
             const dateNow = new Date()
             const dateNowYear = dateNow.getFullYear()
-            const dateNowMonth = dateNow.getMonth()
+            const dateNowMonth = dateNow.getMonth() + 1
             const dateNowDate = dateNow.getDate()
             let age = dateNowYear - year
-            if (dateNowMonth <= parseInt(month) && dateNowDate < parseInt(date)){
+            if (dateNowMonth < parseInt(month)){
                 age--
+            }
+            else{
+                if (dateNowDate < parseInt(date)){
+                    age--
+                }
             }
             return age
         },
