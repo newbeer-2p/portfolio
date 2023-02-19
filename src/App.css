@@ -391,20 +391,24 @@ img {
 
 .nvbar-mobile {
   display: none;
+  z-index: 25;
   position: fixed;
   width: 100vw;
   /* margin-top: 10px; */
   padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .nvbar-mobile > .nvbar-moblie-items {
   width: 100%;
-  padding: 5px 0;
-  background-color: #f5deb388;
+  padding: 10px 0;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f5deb388;
 }
 
 .nvbar-moblie-items > div {
@@ -431,6 +435,23 @@ img {
 .nvbar-moblie-items .nvbar-item.selected-m {
   background-color: var(--org-1)!important;
   color: white!important;
+}
+
+.nvbar-mobile-dots{
+  display: flex;
+  gap: 5px;
+  transform: translateY(-7.5px);
+}
+
+.nvbar-mobile-dot{
+  width: 5px;
+  height: 5px;
+  background-color: var(--org-4);
+  border-radius: 50px;
+}
+
+.nvbar-mobile-dot.selected{
+  background-color: var(--org-1);
 }
 
 /* Media 1280px */

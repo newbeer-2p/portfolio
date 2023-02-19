@@ -10,6 +10,7 @@ export const NavbarLeft = () => {
             const path = location.pathname
             const nvBar = document.querySelectorAll(".nvbar-items .nvbar-item") ?? null;
             const nvBar_m = document.querySelectorAll(".nvbar-moblie-items .nvbar-item") ?? null;
+            const nvBar_md = document.querySelectorAll(".nvbar-mobile-dot") ?? null;
             if (nvBar === null || nvBar_m === null){
                 return
             } 
@@ -17,18 +18,22 @@ export const NavbarLeft = () => {
             if (path.includes("/me")){
                 nvBar[0].classList.add("selected")
                 nvBar_m[1].classList.add("selected-m")
+                nvBar_md[1].classList.add("selected")
             }
             else if (path.includes("/records")){
                 nvBar[1].classList.add("selected")
                 nvBar_m[2].classList.add("selected-m")
+                nvBar_md[2].classList.add("selected")
             }
             else if (path.includes("/activities")){
                 nvBar[2].classList.add("selected")
                 nvBar_m[3].classList.add("selected-m")
+                nvBar_md[3].classList.add("selected")
             }
             else if (path.includes("/transcript")){
                 nvBar[3].classList.add("selected")
                 nvBar_m[4].classList.add("selected-m")
+                nvBar_md[4].classList.add("selected")
             }
         },
         [location]
@@ -70,6 +75,13 @@ export const NavbarLeft = () => {
                         <Link to="/activities" ><span className="nvbar-item">กิจกรรม</span></Link>
                         <Link to="/transcript" ><span className="nvbar-item">ผลการเรียน</span></Link>
                     </div>
+                </div>
+                <div className="nvbar-mobile-dots">
+                    <div className="nvbar-mobile-dot"></div>
+                    <div className="nvbar-mobile-dot"></div>
+                    <div className="nvbar-mobile-dot"></div>
+                    <div className="nvbar-mobile-dot"></div>
+                    <div className="nvbar-mobile-dot"></div>
                 </div>
             </div>
         </>
