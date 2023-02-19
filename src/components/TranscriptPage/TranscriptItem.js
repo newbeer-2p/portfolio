@@ -1,4 +1,4 @@
-import { ButtonDownload } from "../ButtonDownload"
+// import { ButtonDownload } from "../ButtonDownload"
 import { HeadTitle } from "../HeadTitle"
 import data from "../../data/transcipt.json"
 

@@ -7,7 +7,7 @@ export const RecordContent = ( {content} ) => {
             if (content.languages.length !== 0) {
                 return (
                     <div>
-                        <span className="rec-content-title">ภาษา : </span>
+                        <span className="rec-content-title">ภาษาและเทคโนโลยี : </span>
                         <span>{content.languages.join(", ")}</span> 
                     </div>
                 )

@@ -216,6 +216,32 @@
     },
     {
         "type": "web",
+        "name": "XO Vocab",
+        "year": "3",
+        "schoolYear": "2564",
+        "subjects": [
+            "Web Design and Developement"
+        ],
+        "project": true,
+        "poster": "/records/xo-vocab.png",
+        "description": "เกมฝึกภาษาอังกฤษด้วยคำศัพท์จากภาพที่อยู่ในรูปแบบเกม Tic-Tac-Toe หรือ OX",
+        "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Firebase"
+        ],
+        "softwares": [
+            "Visual Studio Code"
+        ],
+        "mainRoles": [
+            "เกมโต้ตอบสำหรับผู้เล่นเว็บไซต์"
+        ],
+        "demo": "",
+        "link": "https://xo-vocab.web.app/"
+    },
+    {
+        "type": "web",
         "name": "Student Service",
         "year": "3",
         "schoolYear": "2564",
@@ -229,7 +255,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "React"
+            "React",
+            "GraphGL"
         ],
         "softwares": [
             "Visual Studio Code"

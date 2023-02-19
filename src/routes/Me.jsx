@@ -19,7 +19,7 @@ export const MePage = () => {
                 <div className="content-resume">
                     <HeadTitle text="เรซูเม่" />
                     <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1aSpL0JSo_IeJ9ck0dD6Cce3TesoE3wOl/view?usp=sharing">
-                    <img src="files/Resume.png" width="100%" alt="resume" /></a>
+                    <img src="/files/Resume.png" width="100%" alt="resume" /></a>
                 </div>
             </div>
             <NavbarRight />

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ButtonDownload } from "../components/ButtonDownload"
+// import { ButtonDownload } from "../components/ButtonDownload"
 
 export const IntroPage = () => {
     return (
