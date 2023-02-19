@@ -8,8 +8,8 @@ export const RecordPage = () => {
             <NavbarLeft />
             <div className="contents">
                 <RecordList type="game" />
-                <RecordList type="model" />
                 <RecordList type="web" />
+                <RecordList type="model" />
             </div>
             <NavbarRight />
         </div>

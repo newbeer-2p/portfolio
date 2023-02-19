@@ -1,25 +1,54 @@
 [
     {
         "type": "game",
-        "name": "Paradise Farm",
-        "year": "2",
-        "schoolYear": "2563",
+        "name": "เกมทางวิ่งที่ไม่มีที่สิ้นสุด",
+        "year": "4",
+        "schoolYear": "2565",
         "subjects": [
-            "Object-Oriented Programming"
+            "Cooperative Education in Multimedia and Game Development"
         ],
         "project": true,
-        "poster": "/records/ParadiseFarm.png",
-        "description": "Paradise Farm เป็นเกมประเภทสวมบทบาท โดยที่ผู้เล่นจะรับบทเป็นชาวสวน ในตัวเกมนั้นผู้เล่นจะได้ปลูกผักชนิดต่าง ๆ มีบ้านเป็นของตัวเอง อีกทั้งยังมีตลาดไว้ซื้อเมล็ดพันธุ์ได้อีกด้วย",
+        "poster": "/records/EndlessRunner.png",
+        "description": "เกมทางวิ่งที่ไม่มีที่สิ้นสุดบนเว็บไซต์ด้วยโปรแกรม Unity และ Build ด้วย WebGL ซึ่งผู้จัดทำได้ร่วมมือกับบริษัทที่ผึกงานที่เป็นงานหลัก โดยตัวละครจะเคลื่อนที่ไปข้างหน้าอัตโนมัติ ผู้เล่นจะมีรูปแบบควบคุมให้หลบหลีกสิ่งขีดขวาง ซึ่งผู้เล่นจะต้องวิ่งหนีและหลบหลีกอุปสรรคต่าง ๆ เพื่อเก็บคะแนนให้ได้เยอะที่สุด",
         "languages": [
-            "Java"
+            "C#"
         ],
         "softwares": [
-            "NetBeans IDE 8.2"
+            "Unity",
+            "Visual Studio Code"
         ],
         "mainRoles": [
-            "เขียนโปรแกรม"
+            "เขียนโปรแกรม",
+            "แอนิเมชัน",
+            "UI"
         ],
-        "demo": "/records/ParadiseFarm_Demo.mp4"
+        "demo": ""
+    },
+    {
+        "type": "game",
+        "name": "เกมมุมมองจากบนลงล่างแนวโรกไลก์",
+        "year": "4",
+        "schoolYear": "2565",
+        "subjects": [
+            "Cooperative Education in Multimedia and Game Development"
+        ],
+        "project": true,
+        "poster": "/records/Roguelike.png",
+        "description": "เกมนี้เป็นเกมที่เอาไว้ฝึกทำร่วมกับสมาชิกที่ฝึกงานด้วยกัน ซึ่งเกมมุมมองจากบนลงล่างแนวโรกไลก์ เป็นเกม RPG ที่ถูกสร้างขึ้นมาและมุมมองจากบนลงล่าง โดยผู้เล่นรับบทเป็นนักเรียนที่จะต้องผ่านด่านหรือห้องเรียนที่จะต้องฝ่าฟัน ตัวละครมีหลายตัวและหลายสกิล ทำให้ผู้เล่นสนุกกับการเล่นได้มากขึ้น โดยจะมีศัตรูต่าง ๆ ที่จะมาขัดขวางการเดินทางของเราและเราจะต้องจัดการและต้องต่อสู้บอสไปเรื่อย ๆ จนกว่าจะครบ และถ้าผู้เล่นตาย ระบบจะทำการเริ่มใหม่ทั้งหมด เพื่อเป็นการท้าทายของผู้เล่นเอง",
+        "languages": [
+            "C#"
+        ],
+        "softwares": [
+            "Unity",
+            "Visual Studio Code"
+        ],
+        "mainRoles": [
+            "เขียนโปรแกรม",
+            "AI",
+            "แอนิเมชัน",
+            "UI"
+        ],
+        "demo": ""
     },
     {
         "type": "game",
@@ -40,6 +69,28 @@
             "เขียนบลูปรินท์"
         ],
         "demo": "/records/MemoryYou_Demo.mp4"
+    },
+    {
+        "type": "game",
+        "name": "Paradise Farm",
+        "year": "2",
+        "schoolYear": "2563",
+        "subjects": [
+            "Object-Oriented Programming"
+        ],
+        "project": true,
+        "poster": "/records/ParadiseFarm.png",
+        "description": "Paradise Farm เป็นเกมประเภทสวมบทบาท โดยที่ผู้เล่นจะรับบทเป็นชาวสวน ในตัวเกมนั้นผู้เล่นจะได้ปลูกผักชนิดต่าง ๆ มีบ้านเป็นของตัวเอง อีกทั้งยังมีตลาดไว้ซื้อเมล็ดพันธุ์ได้อีกด้วย",
+        "languages": [
+            "Java"
+        ],
+        "softwares": [
+            "NetBeans IDE 8.2"
+        ],
+        "mainRoles": [
+            "เขียนโปรแกรม"
+        ],
+        "demo": "/records/ParadiseFarm_Demo.mp4"
     },
     {
         "type": "model",
@@ -162,6 +213,33 @@
             "เทคเจอร์"
         ],
         "demo": "/records/AdventureGirl_Video.mp4"
+    },
+    {
+        "type": "web",
+        "name": "Student Service",
+        "year": "3",
+        "schoolYear": "2564",
+        "subjects": [
+            "Special Topics in Software Engineering 2 (Full-stack Web Developer)"
+        ],
+        "project": true,
+        "poster": "/records/student-service.png",
+        "description": "เว็บไซต์นี้เป็นประโยชน์ต่อบุคคลากรในคณะเทคโนโลยีสารสนเทศ เพื่อช่วยการทำงานเเละลดงานที่ซับซ้อนในการดำเนินงานตามขั้นตอนต่าง ๆ ความยุ่งยากต่อการติดต่อกันระหว่างนักศึกษา อาจารย์ เเละเจ้าหน้าที่ (พี่ห้องฟ้า) เพื่อให้บุคคลากรสะดวกต่อการทำงานเเละง่ายต่อการใช้งานมากขึ้น",
+        "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ],
+        "softwares": [
+            "Visual Studio Code"
+        ],
+        "mainRoles": [
+            "ออกแบบ UI",
+            "Front-End"
+        ],
+        "demo": "",
+        "link": "https://student-service.vercel.app/"
     },
     {
         "type": "web",

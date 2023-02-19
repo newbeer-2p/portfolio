@@ -50,7 +50,7 @@ export const Information = () => {
         <div className="content">
             <HeadTitle text="ประวัติส่วนตัว" />
             <div className="content-info row">
-                <div className="col">
+                <div className="col-12 col-lg-6 col-xl">
                     <div className="img-main text-center">
                         <img alt="" src={data.info.image[currentImage]} />
                     </div>
@@ -62,7 +62,7 @@ export const Information = () => {
                         }
                     </div>
                 </div>
-                <div className="col info-contents">
+                <div className="col-12 col-lg-6 col-xl info-contents">
                     <div className="info-content">
                         <div className="title-sm">ชื่อ - สกุล</div>
                         <div>{data.info.firstname} {data.info.lastname}</div>
@@ -73,7 +73,8 @@ export const Information = () => {
                     </div>
                     <div className="info-content">
                         <div className="title-sm">วันเกิด</div>
-                        <div>{data.info.birthday}</div>
+                        {/* <div>{data.info.birthday}</div> */}
+                        <div>7 มิถุนายน 2544</div>
                     </div>
                     <div className="info-content">
                         <div className="title-sm">อายุ</div>
@@ -89,10 +90,9 @@ export const Information = () => {
                     </div>
                     <div className="info-content">
                         <div className="title-sm">ที่อยู่</div>
-                        <div>{data.info.contact.address.houseNo} หมู่ {data.info.contact.address.moo} หมู่บ้าน {data.info.contact.address.village}</div>
-                        <div>ซอย {data.info.contact.address.soi}</div>
-                        <div>ถนน {data.info.contact.address.road} ตำบล {data.info.contact.address.subDistrict}</div>
-                        <div>อำเภอ {data.info.contact.address.district} จังหวัด {data.info.contact.address.province}</div>
+                        <div>{data.info.contact.address.houseNo} หมู่ {data.info.contact.address.moo} ซอย{data.info.contact.address.soi}</div>
+                        <div>ถนน{data.info.contact.address.road} ตำบล{data.info.contact.address.subDistrict}</div>
+                        <div>อำเภอ{data.info.contact.address.district} จังหวัด{data.info.contact.address.province}</div>
                     </div>
                 </div>
             </div>

@@ -27,10 +27,10 @@ export const NavbarRight = () => {
             const path = location.pathname
         
             if (path.includes("/me")){
-                setContents([["ประวัติส่วนตัว", "info"], ["การศึกษา", "edu"], ["ทักษะ", "skills"]])
+                setContents([["ประวัติส่วนตัว", "info"], ["ประสบการณ์", "exp"], ["การศึกษา", "edu"], ["ทักษะ", "skills"], ["เรซูเม่", "resume"]])
             }
             else if (path.includes("/records")){
-                setContents([["ด้านเกม", "game"], ["ด้านโมเดล", "model"], ["ด้านเว็บไซต์", "web"]])
+                setContents([["ด้านเกม", "game"], ["ด้านเว็บไซต์", "web"], ["ด้านโมเดล", "model"]])
             }
             else if (path.includes("/activities")){
                 setContents([["กิจกรรม", "acts"]])

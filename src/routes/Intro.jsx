@@ -17,9 +17,9 @@ export const IntroPage = () => {
                     </Link>
                 </div>
             </div>
-            <div className="dl-port text-end">
+            {/* <div className="dl-port text-end">
                 <ButtonDownload path="/files/Pongsakorn_Prawanna_Portfolio.pdf" fileName="Pongsakorn_Prawanna_Portfolio" text="ดาวน์โหลดแฟ้มสะสมผลงาน" />
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -87,7 +87,7 @@ export const RecordContent = ( {content} ) => {
                     <span>{content.mainRoles.join(", ")}</span> 
                 </div>
                 {link}
-                {demo}
+                {content.demo !== "" ? demo : ""}
             </div>
         </div>
     )
