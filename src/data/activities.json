@@ -1,9 +1,16 @@
 [
     {
+        "name": "ITCamp 18",
+        "imgs": [
+            "/activities/itcamp18_1.jpg",
+            "/activities/itcamp18_2.jpg"
+        ]
+    },
+    {
         "name": "IT KMITL Open House 2020",
         "imgs": [
-            "/activities/act_openhouse_2020_1.jpg.png",
-            "/activities/act_openhouse_2020_2.jpg.png"
+            "/activities/act_openhouse_2020_1.png",
+            "/activities/act_openhouse_2020_2.png"
         ]
     },
     {

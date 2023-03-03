@@ -73,6 +73,11 @@ body {
   font-size: 30px;
 }
 
+.intro-description{
+  color: #757575;
+  margin: 5px 0;
+}
+
 .intro-btn{
   margin: 20px 0;
   background-color: var(--org-2);
@@ -525,6 +530,10 @@ img {
   .page>.contents{
     padding: 20px 10px;
   }
+
+  .intro{
+    overflow: hidden;
+  }
 }
 
 /* Media 550px */
@@ -546,5 +555,22 @@ img {
 
   .rec-title-sm, div, .skill-detail{
     font-size: 4vw;
+  }
+
+  .intro-img{
+    text-align: center;
+  }
+
+  .intro-img > img{
+    width: 80%;
+    height: 80%;
+  }
+
+  .intro-name{
+    font-size: 12vw;
+  }
+
+  .intro-eng-name{
+    font-size: 6vw;
   }
 }
