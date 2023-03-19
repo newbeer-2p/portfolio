@@ -12,15 +12,15 @@ export const MePage = () => {
         <div className="page">
             <NavbarLeft />
             <div className="contents">
+                <div className="content-resume mb-4">
+                    <HeadTitle text="เรซูเม่" />
+                    <a target="_blank" rel="noreferrer" href="/files/Pongsakorn_Resume.png">
+                    <img alt="Resume" src="/files/Pongsakorn_Resume.png" width="100%" /></a>
+                </div>
                 <Information />
                 <Experiences />
                 <Education />
                 <Skills />
-                <div className="content-resume">
-                    <HeadTitle text="เรซูเม่" />
-                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1aSpL0JSo_IeJ9ck0dD6Cce3TesoE3wOl/view?usp=sharing">
-                    <img alt="Resume" src="/files/resume.png" width="100%" /></a>
-                </div>
             </div>
             <NavbarRight />
         </div>

@@ -1,13 +1,37 @@
 import { Link } from "react-router-dom"
 import data from "../data/me.json"
 // import { ButtonDownload } from "../components/ButtonDownload"
+import React, { useEffect } from "react"
+import firebase from '../utils/firebase'
 
 export const IntroPage = () => {
+
+    useEffect(() => {
+        if (window.location.href.includes("localhost")) return;
+        
+        const viewerRef = firebase.database().ref('viewers');
+        viewerRef.once('value', (snapshot) => {
+            const viewers = snapshot.val();
+            let date = new Date();
+            let nowDate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`
+            let info = {}
+            if (viewers && viewers[nowDate]){
+                info[nowDate] = viewers[nowDate] + 1;
+            }
+            else
+            {
+                info[nowDate] = 1;
+            }
+            viewerRef.update(info);
+        })
+
+    }, [])
+
     return (
         <div className="intro">
             <div>
                 <div className="intro-img">
-                    <img alt="newbeer" src="img/newbeer_1.png" width="100%" height="100%" />
+                    <img alt="newbeer" src={data.info.profileImage} width="100%" height="100%" />
                 </div>
                 <div className="intro-text">
                     <div className="intro-name">{data.info.firstname}</div>

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useRecord } from '../../contexts/RecordContext'
 import { HeadTitle } from '../HeadTitle'
 import { RecordContent } from './RecordContent'
+import { RecordThumbnail } from './RecordThumbnail'
 
 export const RecordList = ( {type} ) => {
 
@@ -33,11 +34,14 @@ export const RecordList = ( {type} ) => {
     return (
         <div className={`content-${type}`}>
             <HeadTitle text={headTitle} />
-            {
-                records.map((rec, index) => (
-                    <RecordContent key={index} content={rec} />
-                ))
-            }
+            <div className="rec-thumbnail">
+                {
+                    records.map((rec, index) => (
+                        // <RecordContent key={index} content={rec} />
+                        <RecordThumbnail key={index} record={rec} />
+                    ))
+                }
+            </div>
         </div>
     )
 }

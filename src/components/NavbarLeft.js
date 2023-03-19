@@ -1,9 +1,17 @@
+import { useState } from "react";
 import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom"
+import data from "../data/me.json"
 
 export const NavbarLeft = () => {
 
     const location = useLocation();
+
+    const [show, setShow] = useState(false);
+
+    const toggleShow = () => {
+        setShow(!show);
+    }
 
     useEffect(
         () => {
@@ -35,8 +43,17 @@ export const NavbarLeft = () => {
                 nvBar_m[4].classList.add("selected-m")
                 nvBar_md[4].classList.add("selected")
             }
+
+            if (show)
+            {
+                document.querySelector(".nvbar-mobile").style.transform = "translateY(0)";
+            }
+            else
+            {
+                document.querySelector(".nvbar-mobile").style.transform = "translateY(-50px)";
+            }
         },
-        [location]
+        [location, show]
     )
 
     return (
@@ -45,7 +62,7 @@ export const NavbarLeft = () => {
                 <div className="nvbar-head">
                     <Link to="/">
                         <div className="nvbar-img mb-3">
-                            <img alt="newbeer" src="/img/newbeer_1.png" width="100%" /> 
+                            <img alt="newbeer" src={data.info.profileImage} width="100%" /> 
                         </div>
                     </Link>
                     <div className="nvbar-text">
@@ -82,6 +99,9 @@ export const NavbarLeft = () => {
                     <div className="nvbar-mobile-dot"></div>
                     <div className="nvbar-mobile-dot"></div>
                     <div className="nvbar-mobile-dot"></div>
+                </div>
+                <div className="nvbar-mobile-btn" onClick={toggleShow}>
+                    <i className="bi bi-list"></i>
                 </div>
             </div>
         </>

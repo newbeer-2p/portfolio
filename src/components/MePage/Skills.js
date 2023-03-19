@@ -20,7 +20,7 @@ export const Skills = () => {
                         ))
                     }
                     <div className="skill-other">
-                        <span className="title-sm">ภาษาอื่นๆ : </span> 
+                        <span className="title-sm">ภาษาอื่น ๆ : </span> 
                         <span>{data.skill.otherProgrammings.join(", ")}</span>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ export const Skills = () => {
                         ))
                     } 
                     <div className="skill-other">
-                    <span className="title-sm">โปรแกรมอื่นๆ : </span> 
+                    <span className="title-sm">โปรแกรมอื่น ๆ : </span> 
                     <span>{data.skill.otherPrograms.join(", ")}</span>
                 </div>
                 </div>

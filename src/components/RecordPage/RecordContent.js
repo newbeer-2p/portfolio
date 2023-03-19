@@ -25,7 +25,7 @@ export const RecordContent = ( {content} ) => {
                     <>
                         <div className="rec-content-title">Demo :</div>
                         <div className="text-center mb-5">
-                            <iframe width="720" height="480" src={`https://www.youtube.com/embed/${url}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe width="720" height="480" src={`https://www.youtube.com/embed/${url}`} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </>
                 )
@@ -35,7 +35,7 @@ export const RecordContent = ( {content} ) => {
                     <>
                         <div className="rec-content-title">Demo :</div>
                         <div className="text-center mb-5">
-                            <video width="720" height="480" controls>
+                            <video controls>
                                 <source src={content.demo} type="video/mp4" />
                             </video>
                         </div>
