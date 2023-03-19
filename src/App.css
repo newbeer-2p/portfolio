@@ -459,6 +459,7 @@ img {
   justify-content: center;
   align-items: center;
   background-color: #f5deb388;
+  overflow: hidden;
 }
 
 .nvbar-moblie-items > div {
