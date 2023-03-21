@@ -33,7 +33,7 @@ export const NavbarRight = () => {
                 if (path.includes("/game/") || path.includes("/web/") || path.includes("/model/"))
                     setContents([])
                 else
-                    setContents([["ด้านเกม", "game"], ["ด้านเว็บไซต์", "web"], ["ด้านโมเดล", "model"]])
+                    setContents([["ด้านเกม", "game"], ["ด้านเว็บไซต์", "web"], ["ด้านโมเดล", "model"], ["ด้านภาพยนตร์", "cinematic"]])
             }
             else if (path.includes("/activities")){
                 setContents([["กิจกรรม", "acts"]])

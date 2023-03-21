@@ -23,7 +23,7 @@
             "แอนิเมชัน",
             "UI"
         ],
-        "demo": ""
+        "demo": "/records/EndlessRunning_Demo.mp4"
     },
     {
         "id": 2,
@@ -59,7 +59,8 @@
         "year": "3",
         "schoolYear": "2564",
         "subjects": [
-            "Game Design and Development"
+            "Game Design and Development",
+            "Advanced Game Development"
         ],
         "project": true,
         "poster": "/records/MemoryYou_Poster.png",
@@ -267,7 +268,8 @@
             "CSS",
             "JavaScript",
             "React",
-            "GraphGL"
+            "GraphGL",
+            "Ant Design"
         ],
         "softwares": [
             "Visual Studio Code"
@@ -308,7 +310,7 @@
     {
         "id": 13,
         "type": "web",
-        "name": "#Save Parrot Fish",
+        "name": "SaveParrotFish",
         "year": "3",
         "schoolYear": "2564",
         "subjects": [
@@ -330,5 +332,80 @@
         ],
         "demo": "/records/SaveParrot_Video.mp4",
         "link": "https://save-parrot-fish.netlify.app/"
+    },
+    {
+        "id": 14,
+        "type": "game",
+        "name": "Farmtopia",
+        "year": "-",
+        "schoolYear": "-",
+        "subjects": [
+            "-"
+        ],
+        "project": false,
+        "poster": "/records/Farmtopia.png",
+        "description": "เกม Farmtopia เป็นเกม Roblox ที่เป็นเกม Simulator ที่เราจะต้องเก็บของปลูกผักและขายของ โดยเป็นเพียงแค่ Prototype เพื่อฝึกสร้างเกมบน Roblox",
+        "languages": [
+            "Lua"
+        ],
+        "softwares": [
+            "Roblox Studio"
+        ],
+        "mainRoles": [
+            "เขียนโปรแกรม",
+            "UI"
+        ],
+        "demo": "/records/Farmtopia_Demo.mp4"
+    },
+    {
+        "id": 15,
+        "type": "web",
+        "name": "Newbeer Portfolio",
+        "year": "-",
+        "schoolYear": "-",
+        "subjects": [
+            "-"
+        ],
+        "project": false,
+        "poster": "/records/NewbeerPortfolio.png",
+        "description": "เว็บไซต์ที่เอาไว้แสดงข้อมูลของผม โดยมีการโชว์ข้อมูลส่วนตัว ผลงาน กิจกรรมต่าง ๆ เป็นต้น",
+        "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Bootstrap",
+            "Firebase"
+        ],
+        "softwares": [
+            "Visual Studio Code"
+        ],
+        "mainRoles": [
+            "เขียนทั้งเว็บไซต์"
+        ],
+        "demo": "",
+        "link": "https://newbeer-portfolio.vercel.app/"
+    },
+    {
+        "id": 15,
+        "type": "cinematic",
+        "name": "มนต์รัก น้ำปั่น",
+        "year": "3",
+        "schoolYear": "2",
+        "subjects": [
+            "Fundimentals of Digital Storytelling and Cinematography"
+        ],
+        "project": true,
+        "poster": "/records/Monraknampun.png",
+        "description": "หนังสั้นเกี่ยวกับเมี๊ยวที่รู้สึกคอแห้งขึ้นมาเลยมองหาร้านขายน้ำ จนพบกับร้านน้ำปั่นแห่งหนึ่ง จึงมุ่งตรงไปยังร้าน เมื่อไปถึงเมี๊ยวก็รู้สึกเหมือนได้พบกับเนื้อคู่ เพื่อนของเมี๊ยวจึงยุยงให้เมี๊ยวเดินหน้าจีบหนุ่มร้านน้ำปั่น จึงไปซื้อน้ำปั่นเมนูเดิม ๆ ทุกวัน และได้รู้ว่าเขาชื่อ โซ่ ซึ่งเมี้ยวจะสมหวังเรื่องความรักหรือเปล่า เชิญติดตามชมได้เลย",
+        "languages": [],
+        "softwares": [
+            "Adobe Premiere Pro"
+        ],
+        "mainRoles": [
+            "คิดบท",
+            "ตัดต่อคลิป"
+        ],
+        "demo": "https://youtu.be/ic2ZE7EbDBY"
     }
 ]

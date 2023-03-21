@@ -20,6 +20,9 @@ export const RecordList = ( {type} ) => {
             else if (type === "web"){
                 return "ผลงานทางด้านเว็บ" 
             }
+            else if (type === "cinematic"){
+                return "ผลงานทางด้านภาพยนตร์" 
+            }
         },
         [type]
     )

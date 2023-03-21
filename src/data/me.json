@@ -72,7 +72,7 @@
                 "detail" : "เป็นภาษาที่ใช้ควบคู่กับเว็บ ทางคณะส่วนใหญ่ในแต่ละชั้นปีก็จะมีสอน JavaScript ทำให้ซึมทรัพย์และเข้าใจ เนื่องจากเคยใช้งานภาษา Python มาแล้วจึงทำให้มีสกิลที่ดี"
             }
         ],
-        "otherProgrammings" : ["Java", "PHP", "HTML", "CSS", "React"],
+        "otherProgrammings" : ["Java", "PHP", "HTML", "CSS", "React", "Lua"],
         "programs" : [
             {
                 "name" : "Unity",
@@ -90,6 +90,6 @@
                 "detail" : "เป็นโปรแกรมที่เริ่มตอนอยู่ชั้นปีที่ 2 จนถึงปัจจุบัน โดยมี 2 วิชาที่ใช้โปรแกรมนี้ จึงทำให้มีประสบการณ์ในการใช้โปรแกรม Maya"
             }
         ],
-        "otherPrograms" : ["Photoshop", "Premiere Pro", "Visual Studio Code"]
+        "otherPrograms" : ["Adobe Photoshop", "Adobe Premiere Pro", "Visual Studio Code", "Roblox Studio"]
     }
 }

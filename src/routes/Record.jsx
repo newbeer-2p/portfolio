@@ -10,6 +10,7 @@ export const RecordPage = () => {
                 <RecordList type="game" />
                 <RecordList type="web" />
                 <RecordList type="model" />
+                <RecordList type="cinematic" />
             </div>
             <NavbarRight />
         </div>
