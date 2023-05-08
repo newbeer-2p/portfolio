@@ -87,6 +87,7 @@ export const RecordContent = ( {content} ) => {
                     <span>{content.mainRoles.join(", ")}</span> 
                 </div>
                 {link}
+                {content.github !== "" ? <div><span className="rec-content-title">GitHub : </span><a href={`${content.github}`} target="_blank" rel="noreferrer">{content.github}</a></div> : ""}
                 {content.demo !== "" ? demo : ""}
             </div>
         </div>

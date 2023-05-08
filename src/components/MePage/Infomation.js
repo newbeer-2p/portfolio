@@ -89,6 +89,10 @@ export const Information = () => {
                         <div>{data.info.contact.email}</div>
                     </div>
                     <div className="info-content">
+                        <div className="title-sm">GitHub</div>
+                        <div><a href={data.info.github} target="_blank" rel="noreferrer">{data.info.github}</a></div>
+                    </div>
+                    <div className="info-content">
                         <div className="title-sm">ที่อยู่</div>
                         <div>{data.info.contact.address.houseNo} หมู่ {data.info.contact.address.moo} ซอย{data.info.contact.address.soi}</div>
                         <div>ถนน{data.info.contact.address.road} ตำบล{data.info.contact.address.subDistrict}</div>

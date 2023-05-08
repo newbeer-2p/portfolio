@@ -25,7 +25,7 @@ export const Skills = () => {
                     </div>
                 </div>
                 <div className="content-skill col-12 col-xl-6">
-                    <div className="title-sm">โปรแกรม</div>
+                    <div className="title-sm">โปรแกรมและเครื่องมืออื่น ๆ</div>
                     {
                         data.skill.programs.map((pro, index) => (
                             <div key={index}>

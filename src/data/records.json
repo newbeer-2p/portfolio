@@ -19,11 +19,13 @@
             "Visual Studio Code"
         ],
         "mainRoles": [
-            "เขียนโปรแกรม",
-            "แอนิเมชัน",
-            "UI"
+            "Player movement", 
+            "Map generator", 
+            "Player animation", 
+            "User interface"
         ],
-        "demo": "/records/EndlessRunning_Demo.mp4"
+        "demo": "/records/EndlessRunning_Demo.mp4",
+        "github": ""
     },
     {
         "id": 2,
@@ -45,12 +47,11 @@
             "Visual Studio Code"
         ],
         "mainRoles": [
-            "เขียนโปรแกรม",
-            "AI",
-            "แอนิเมชัน",
-            "UI"
+            "Player animation",
+            "User interface"
         ],
-        "demo": ""
+        "demo": "",
+        "github": ""
     },
     {
         "id": 3,
@@ -70,9 +71,13 @@
             "Unreal Engine"
         ],
         "mainRoles": [
-            "เขียนบลูปรินท์"
+            "Player movement", 
+            "Dialogue system", 
+            "Quest", 
+            "User interface"
         ],
-        "demo": "/records/MemoryYou_Demo.mp4"
+        "demo": "/records/MemoryYou_Demo.mp4",
+        "github": "https://github.com/newbeer-2p/memory-you"
     },
     {
         "id": 4,
@@ -93,9 +98,12 @@
             "NetBeans IDE 8.2"
         ],
         "mainRoles": [
-            "เขียนโปรแกรม"
+            "Plant system", 
+            "Shop", 
+            "User interface"
         ],
-        "demo": "/records/ParadiseFarm_Demo.mp4"
+        "demo": "/records/ParadiseFarm_Demo.mp4",
+        "github": "https://github.com/newbeer-2p/OOPByStudyForWhat"
     },
     {
         "id": 5,
@@ -119,7 +127,8 @@
             "ปั้นโมเดลตึก ต้นไม้ ม้านั่ง พุ่มไม้ ทางเท้า",
             "อนิเมชั่น"
         ],
-        "demo": "https://youtu.be/kBcyIyvpHC4"
+        "demo": "https://youtu.be/kBcyIyvpHC4",
+        "github": ""
     },
     {
         "id": 6,
@@ -144,7 +153,8 @@
             "อนิเมชั่น",
             "เทคเจอร์"
         ],
-        "demo": "https://youtu.be/D26dowD63BA"
+        "demo": "https://youtu.be/D26dowD63BA",
+        "github": ""
     },
     {
         "id": 7,
@@ -168,7 +178,8 @@
             "ปั้นโมเดล",
             "อนิเมชั่น"
         ],
-        "demo": "https://youtu.be/WGcrU7wrFwk"
+        "demo": "https://youtu.be/WGcrU7wrFwk",
+        "github": ""
     },
     {
         "id": 8,
@@ -195,7 +206,8 @@
             "อนิเมชั่น",
             "เทคเจอร์"
         ],
-        "demo": "/records/VegetableRocket_Video.mp4"
+        "demo": "/records/VegetableRocket_Video.mp4",
+        "github": ""
     },
     {
         "id": 9,
@@ -222,7 +234,8 @@
             "อนิเมชั่น",
             "เทคเจอร์"
         ],
-        "demo": "/records/AdventureGirl_Video.mp4"
+        "demo": "/records/AdventureGirl_Video.mp4",
+        "github": ""
     },
     {
         "id": 10,
@@ -246,10 +259,11 @@
             "Visual Studio Code"
         ],
         "mainRoles": [
-            "เกมโต้ตอบสำหรับผู้เล่นเว็บไซต์"
+            "การเล่นเกม Tic-Tac-Toe", "Matching"
         ],
         "demo": "",
-        "link": "https://xo-vocab.web.app/"
+        "link": "https://xo-vocab.web.app/",
+        "github": "https://github.com/newbeer-2p/xo-vocab"
     },
     {
         "id": 11,
@@ -279,7 +293,8 @@
             "Front-End"
         ],
         "demo": "",
-        "link": "https://student-service.vercel.app/"
+        "link": "https://student-service.vercel.app/",
+        "github": "https://github.com/film-18/student-service"
     },
     {
         "id": 12,
@@ -305,7 +320,8 @@
             "เกมโต้ตอบสำหรับผู้เล่นเว็บไซต์"
         ],
         "demo": "/records/WeaponEvolution_Video.mp4",
-        "link": "https://weapon-evolution.netlify.app/"
+        "link": "https://weapon-evolution.netlify.app/",
+        "github": "https://github.com/newbeer-2p/weapon-evolution"
     },
     {
         "id": 13,
@@ -331,7 +347,8 @@
             "หน้าแรกของเว็บไซต์"
         ],
         "demo": "/records/SaveParrot_Video.mp4",
-        "link": "https://save-parrot-fish.netlify.app/"
+        "link": "https://save-parrot-fish.netlify.app/",
+        "github": "https://github.com/newbeer-2p/parrot-fish"
     },
     {
         "id": 14,
@@ -352,10 +369,13 @@
             "Roblox Studio"
         ],
         "mainRoles": [
-            "เขียนโปรแกรม",
-            "UI"
+            "Plant system",
+            "Pooling System",
+            "Shop",
+            "User interface"
         ],
-        "demo": "/records/Farmtopia_Demo.mp4"
+        "demo": "/records/Farmtopia_Demo.mp4",
+        "github": ""
     },
     {
         "id": 15,
@@ -384,7 +404,8 @@
             "เขียนทั้งเว็บไซต์"
         ],
         "demo": "",
-        "link": "https://newbeer-portfolio.vercel.app/"
+        "link": "https://newbeer-portfolio.vercel.app/",
+        "github": ""
     },
     {
         "id": 15,
@@ -406,6 +427,7 @@
             "คิดบท",
             "ตัดต่อคลิป"
         ],
-        "demo": "https://youtu.be/ic2ZE7EbDBY"
+        "demo": "https://youtu.be/ic2ZE7EbDBY",
+        "github": ""
     }
 ]

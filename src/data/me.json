@@ -26,7 +26,8 @@
                 "country": "ไทย"
             }
         },
-        "description": "ถึงจะเป็นคนไม่เก่ง แต่ก็พร้อมที่จะเรียนรู้เสมอ"
+        "description": "ถึงจะเป็นคนไม่เก่ง แต่ก็พร้อมที่จะเรียนรู้เสมอ",
+        "github": "https://github.com/newbeer-2p"
     },
     "experiences" : [
         {
@@ -80,7 +81,7 @@
                 "detail" : "เป็นโปรแกรมที่ตั้งใจอยากจะเรียนอย่างจริงจัง จึงทำให้จะต้องไปศึกษาเอง โดยการเรียนคอร์สออนไลน์บนเว็บไซต์ Udemy และควบคู่ไปกับฝึกงาน จึงทำให้เข้าใจโปรแกรมในระดับดี"
             },
             {
-                "name" : "Unreal Engine",
+                "name" : "Unreal",
                 "level" : "พื้นฐาน",
                 "detail" : "เป็นโปรแกรมตัวแรกที่เอาไว้ใช้ทำเกมอย่างจริงจัง โดยทางคณะก็ได้ทำการสอนถึง 2 ครั้งจึงทำให้เข้าใจโปรแกรมได้อย่างเข้าใจ"
             },
@@ -90,6 +91,6 @@
                 "detail" : "เป็นโปรแกรมที่เริ่มตอนอยู่ชั้นปีที่ 2 จนถึงปัจจุบัน โดยมี 2 วิชาที่ใช้โปรแกรมนี้ จึงทำให้มีประสบการณ์ในการใช้โปรแกรม Maya"
             }
         ],
-        "otherPrograms" : ["Adobe Photoshop", "Adobe Premiere Pro", "Visual Studio Code", "Roblox Studio"]
+        "otherPrograms" : [ "Visual Studio Code", "Adobe Photoshop", "Adobe Premiere Pro", "Roblox Studio", "NetBeans IDE 8.2", "Firebase", "Wordpress"]
     }
 }
