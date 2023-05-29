@@ -27,7 +27,8 @@ export const NavbarRight = () => {
             const path = location.pathname
         
             if (path.includes("/me")){
-                setContents([["เรซูเม่", "resume"], ["ประวัติส่วนตัว", "info"], ["ประสบการณ์", "exp"], ["การศึกษา", "edu"], ["ทักษะ", "skills"], ])
+                // ["เรซูเม่", "resume"],
+                setContents([["ประวัติส่วนตัว", "info"], ["ประสบการณ์", "exp"], ["การศึกษา", "edu"], ["ทักษะ", "skills"], ])
             }
             else if (path.includes("/records")){
                 if (path.includes("/game/") || path.includes("/web/") || path.includes("/model/"))
